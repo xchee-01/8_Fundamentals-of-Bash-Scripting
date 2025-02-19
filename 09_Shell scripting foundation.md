@@ -84,7 +84,7 @@ Try and run the following script a few times on terminal.
 
 ```
 #!/bin/bash
-read "Please enter your DNA sequence: " dna_sequence
+read -p "Please enter your DNA sequence: " dna_sequence
 echo "You entered the DNA sequence: $dna_sequence"
 
 echo $dna_sequence >> user_dna.txt    # You can try > and see the effect
