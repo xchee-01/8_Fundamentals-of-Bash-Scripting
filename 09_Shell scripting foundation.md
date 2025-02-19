@@ -2,6 +2,8 @@
 
 Shell scripting is essential for automating bioinformatics workflows and medical data processing tasks. Understanding these foundations enables creation of reliable, reusable pipelines for handling patient data and genomic analyses.
 
+**You will need to type the bash script in VIM**
+
 ## 9.1. Shell script basics
 
 The basic structure of a shell script looks like this:
