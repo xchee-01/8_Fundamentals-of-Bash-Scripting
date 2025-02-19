@@ -35,7 +35,7 @@ echo "$dna_sequence"                         # This will print: ATCG
 
 3. Make this an executable chmod +x dna_input.sh
   
-4. Run it with: /dna_input.sh
+4. Run it with: ./dna_input.sh
 
 5. Let's set a shortcut to run the program using alias
 
