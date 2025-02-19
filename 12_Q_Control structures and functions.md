@@ -85,13 +85,12 @@
   echo "Please enter the genetic variant frequency:"
   read frequency
 
-  if ((frequency_percent > 5)); then
+  if ((frequency > 5)); then
       echo "This is a Common variant (frequency > 5%)"
-  elif ((frequency_percent >= 1 && frequency_percent <= 5)); then
+  elif ((frequency >= 1 && frequency <= 5)); then
       echo "This is a Low frequency variant (1% <= frequency <= 5%)"
   else
       echo "This is a Rare variant (frequency < 1%)"
-      echo "Frequency provided: $frequency_percent%"
   fi
   ```
   
