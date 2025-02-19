@@ -1,8 +1,8 @@
-# 9. Shell scripting foundation
+# 1. Shell scripting foundation
 
 Shell scripting is essential for automating bioinformatics workflows and medical data processing tasks. Understanding these foundations enables creation of reliable, reusable pipelines for handling patient data and genomic analyses.
 
-## 9.1. Shell script basics
+## 1.1. Shell script basics
 
 The basic structure of a shell script looks like this:
 
@@ -23,7 +23,7 @@ The `/bin/bash` line in the shebang line refers to the full path to the Bash int
 
 Besides, having a shebang line allows you to run the script directly with `./script.sh` (after making it executable with `chmod +x`). Or else, you would need to explicity type `bash script.sh` or `sh script.sh`
 
-## 9.2. Running the scripts
+## 1.2. Running the scripts
 
 To run the script, you can use:
 
@@ -38,7 +38,7 @@ or you can explicitly type:
 bash script.sh
 ```
 
-## 9.3. Variables and data types
+## 1.3. Variables and data types
 
 We can declare variables in bash scripts. For example:
 
@@ -67,7 +67,7 @@ echo "Temperature: ${vital_signs[0]}"
 echo "Last Visit: $last_visit"
 ```
 
-## 9.4. Input and output operations
+## 1.4. Input and output operations
 
 Bash scripts can also take inputs and output as well. 
 
