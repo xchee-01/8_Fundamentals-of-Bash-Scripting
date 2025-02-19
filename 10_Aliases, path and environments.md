@@ -40,7 +40,7 @@ echo "$dna_sequence"                         # This will print: ATCG
 5. Let's set a shortcut to run the program using alias
 
 ```
-alias dna='/dna_input.sh'   # no spacing between dna and = sign
+alias dna='./dna_input.sh'   # no spacing between dna and = sign
 ```
 
 6. Type `alias` to see all the aliases available. You should see a new alias created.
