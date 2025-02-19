@@ -61,6 +61,9 @@
 >
 > You can read more [here](https://linuxize.com/post/bash-increment-decrement-variable/)
 
+  <details>
+  <summary>Click to view answer</summary>
+
   ```
   #!/bin/bash
 
@@ -77,7 +80,12 @@
   echo "Number of patients with mutations: $count"
   ```
 
+  </details>
+
 #### 5. Write a script that maintains an array of gene names and allows adding new genes to the array. Display the updated array after each addition and count how many genes in the new gene list. 
+
+  <details>
+  <summary>Click to view answer</summary>
 
   ```
   #!/bin/bash
@@ -92,3 +100,5 @@
   echo "Updated gene list: ${genes[@]}"
   echo "Total number of genes: ${#genes[@]}"
   ```
+
+  </details>
